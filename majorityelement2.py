@@ -6,6 +6,7 @@ def majorityElement(self, nums: List[int]) -> List[int]:
                 d[i]=1
             else:
                 d[i]+=1
+                
         l=[]
         for key in d:
             print("d[key]=",d[key],n/3)
