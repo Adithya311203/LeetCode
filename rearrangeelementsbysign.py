@@ -11,3 +11,4 @@ def rearrangeArray(self, nums: List[int]) -> List[int]:
         for i in range(len(l2)):
             l.extend([l1[i],l2[i]])
         return l
+        
