@@ -3,6 +3,7 @@ class Solution(object):
         self.sum = 0
     def bstToGst(self, root):
         if root:
+            
             self.bstToGst(root.right)  
             self.sum += root.val 
             root.val = self.sum 
