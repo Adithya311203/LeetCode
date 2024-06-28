@@ -4,6 +4,8 @@ class Solution(object):
     def bstToGst(self, root):
         if root:
             
+
+            
             self.bstToGst(root.right)  
             self.sum += root.val 
             root.val = self.sum 
