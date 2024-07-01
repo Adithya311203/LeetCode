@@ -3,6 +3,8 @@ class Solution:
         def is_palindrome(sub):
             return sub == sub[::-1]
 
+            
+
         def backtrack(start, path):
             if start == len(s):
                 result.append(path[:])
