@@ -17,7 +17,7 @@ class Solution:
                         x, y = queue.popleft()
                         
                         if 0 <= x < len(grid) and 0 <= y < len(grid[0]) and grid[x][y] == '1':
-                            grid[x][y] = '0'  # mark as visited
+                            grid[x][y] = '0' 
                             for dx, dy in directions:
                                 queue.append((x + dx, y + dy))
         
