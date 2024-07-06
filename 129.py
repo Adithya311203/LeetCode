@@ -1,6 +1,4 @@
 
-
-
 def sumNumbers(self, root: TreeNode) -> int:
         def dfs(node, path_sum):
             if not node:
