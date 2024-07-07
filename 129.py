@@ -6,7 +6,6 @@ def sumNumbers(self, root: TreeNode) -> int:
             
 
             path_sum = path_sum * 10 + node.val
-            
             if not node.left and not node.right:
                 return path_sum
             return dfs(node.left, path_sum) + dfs(node.right, path_sum)
