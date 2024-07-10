@@ -7,8 +7,7 @@ class Solution:
             sum = 0
             while end.val != 0:
                 sum += end.val
-                end = end.nex
-                t
+                end = end.next
             start.val = sum  
             start.next = end.next  
             start = start.next 
