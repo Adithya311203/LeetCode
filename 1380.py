@@ -4,6 +4,7 @@ class Solution:
         for i in range(len(matrix)):
             for j in range(len(matrix[0])):
                 if j in d:
+                    
                     d[j].append(matrix[i][j])
                 else:
                     d[j]=list([matrix[i][j],])
