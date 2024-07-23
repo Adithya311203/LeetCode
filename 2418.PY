@@ -5,6 +5,7 @@ class Solution:
             d[heights[i]]=names[i]
         c=sorted(d)
         l=[]
+        
         for i in range(len(c)):
             l.append(d[c[i]])
         return l[::-1]
